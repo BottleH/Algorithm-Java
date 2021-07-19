@@ -1,4 +1,4 @@
-package Level2;
+package dfs_bfs;
 
 public class ColoringBook {
 

@@ -1,5 +1,5 @@
 // 2750의 방법으로는 시간초과가 뜸.
-package Sorting;
+package sorting;
 
 import java.util.*;
 

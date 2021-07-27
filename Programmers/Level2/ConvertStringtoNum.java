@@ -1,4 +1,4 @@
-package string;
+package Level2;
 
 /*
 네오와 프로도가 숫자놀이를 하고 있습니다. 네오가 프로도에게 숫자를 건넬 때 일부 자릿수를 영단어로 바꾼 카드를 건네주면 프
@@ -18,7 +18,7 @@ s가 의미하는 원래 숫자를 return 하도록 solution 함수를 완성해
 import java.util.HashMap;
 import java.util.Map;
 
-public class convertStringtoNum {
+public class ConvertStringtoNum {
     public static int main(String s) {
 
         Map<String, String> strToNum = new HashMap<>();

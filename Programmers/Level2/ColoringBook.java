@@ -1,4 +1,4 @@
-package kakaoIntern_2021;
+package Level2;
 
 public class ColoringBook {
 

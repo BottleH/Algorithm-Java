@@ -4,7 +4,7 @@ import java.util.Arrays;
 
 public class Q2 {
     public String solution(int[][] scores) {
-        StringBuilder answer = new StringBuilder();
+        StringBuilder answer = new StringBuilder(); // 문자열 append 효율성 위해 StringBuilder 사용
 
         int row = scores.length;
         int column = scores[0].length;
@@ -14,10 +14,11 @@ public class Q2 {
             int sumScore = 0;
             boolean checkDub = false;
 
+            // 열 기준으로 배열 세팅 및 유일한 최고점 최저점 위해 비교
             for (int j = 0; j < row; j++) {
                 reverseScore[j] = scores[j][i];
                 sumScore += reverseScore[j];
-                if (reverseScore[i] == reverseScore[j] && i != j) {
+                if (scores[i][i] == reverseScore[j] && i != j) { // reverseScore[i] 비교하면 안됨.
                     checkDub = true;
                 }
             }

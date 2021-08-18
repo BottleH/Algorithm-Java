@@ -5,8 +5,9 @@ public class BigNumber {
         StringBuilder answer = new StringBuilder();
 
         int chk = 0;
+        int max;
         for (int i = 0; i < number.length() - k; i++) {
-            int max = 0;
+            max = 0;
             for (int j = chk; j <= i + k; j++) {
                 if (max < number.charAt(j) - '0') {
                     max = number.charAt(j) - '0';

@@ -3,7 +3,7 @@ package Weekly_Challenge;
 import java.util.*;
 
 public class Q4 {
-    public static String solution(String[] table, String[] languages, int[] preference) {
+    public String solution(String[] table, String[] languages, int[] preference) {
         Map<Integer, String> scoreMap = new HashMap<>();
 
         for (String value : table) {
@@ -30,12 +30,5 @@ public class Q4 {
 
         int maxScore = Collections.max(scoreMap.keySet());
         return scoreMap.get(maxScore);
-    }
-
-    public static void main(String[] args) {
-        String[] table = {"SI JAVA JAVASCRIPT SQL PYTHON C#", "CONTENTS JAVASCRIPT JAVA PYTHON SQL C++", "HARDWARE C C++ PYTHON JAVA JAVASCRIPT", "PORTAL JAVA JAVASCRIPT PYTHON KOTLIN PHP", "GAME C++ C# JAVASCRIPT C JAVA"};
-        String[] languages = {"JAVA", "JAVASCRIPT"};
-        int[] preference = {7, 5};
-        System.out.println(solution(table, languages, preference));
     }
 }

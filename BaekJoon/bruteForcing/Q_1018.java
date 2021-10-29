@@ -58,7 +58,7 @@ public class Q_1018 {
             }
             currentValue = !currentValue;
         }
-        count = Math.min(count, min - count);
+        count = Math.min(count, 64 - count);
         min = Math.min(min, count);
     }
 }

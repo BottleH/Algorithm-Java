@@ -1,11 +1,11 @@
-package bruteForcing;
+package bruteforcing;
 
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.Arrays;
 
-public class Q_3040 {
+public class q3040 {
 
     private static int[] input = new int[9];
     private static int[] result = new int[7];

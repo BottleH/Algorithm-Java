@@ -1,11 +1,11 @@
-package bruteForcing;
+package bruteforcing;
 
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.StringTokenizer;
 
-public class Q_1018 {
+public class q1018 {
 
     public static boolean[][] matrix;
     public static int min = 64;

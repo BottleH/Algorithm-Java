@@ -1,10 +1,10 @@
-package bruteForcing;
+package bruteforcing;
 
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 
-public class Q_9663 {
+public class q9663 {
 
     private static int[] arr;
     private static int count = 0;
